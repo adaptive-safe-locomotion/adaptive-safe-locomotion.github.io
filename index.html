@@ -5,8 +5,8 @@
   <meta name="description" content="Agile But Safe: Learning Collision-Free High-Speed Legged Locomotion">
   <meta name="keywords" content="Legged Locomotion, Agile Locomotion,Reinforcement Learning, Visuomotor Control, Sim-to-Real Transfer, Collision Avoidance">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Agile But Safe: Learning Collision-Free High-Speed Legged Locomotion</title>
-
+  <title>Bridging Adaptivity and Safety: Agile Legged Locomotion Across Varied Physics</title>
+ 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
 
@@ -61,7 +61,8 @@
     <div class="container">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Agile But Safe: Learning Collision-Free <br> High-Speed Legged Locomotion</h1>
+          <h1 class="title is-1 publication-title">Bridging Adaptivity and Safety: <br>Agile Legged Locomotion <br>Across
+            Varied Physics</h1>
           <div class="is-size-4 publication-authors">
             <span class="author-block">
               <a href="https://tairanhe.com/">Tairan He</a>*&nbsp;&nbsp;
@@ -338,19 +339,38 @@
 <section class="section">
   <div class="container">
     <h2 class="title is-2" style="text-align: center;">Baseline Comparison</h2>
+    <h3 class="title is-3" style="text-align: center;">Slippery Locomotion</h3>
     <div class="columns is-centered">
       <div class="column is-full-width is-centered has-text-centered">
-        <video controls autoplay loop muted playsinline src="./resources/baseline_comparison/baseline-comparison-highbay-ABS.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+        <video controls autoplay loop muted playsinline src="./assets/fric_locomotion/bas_fric_loco.mov" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
         <div class="content is-two-third has-text-centered">
         </div>
       </div>
       <div class="column is-full-width is-centered has-text-centered">
-        <video controls autoplay loop muted playsinline src="./resources/baseline_comparison/baseline-comparison-highbay-RL.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+        <video controls autoplay loop muted playsinline src="./assets/fric_locomotion/abs_fric_loco.mov" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
         <div class="content is-two-third has-text-centered">
         </div>
       </div>
       <div class="column is-full-width is-centered has-text-centered">
-        <video controls autoplay loop muted playsinline src="./resources/baseline_comparison/baseline-comparison-highbay-LAG.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+        <video controls autoplay loop muted playsinline src="./assets/fric_locomotion/rmalag_fric_loco.mov" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+        <div class="content is-two-third has-text-centered">
+        </div>
+      </div>
+    </div>
+    <h3 class="title is-3" style="text-align: center;">Grassy Slope Locomotion</h3>
+    <div class="columns is-centered">
+      <div class="column is-full-width is-centered has-text-centered">
+        <video controls autoplay loop muted playsinline src="./assets/slope_locomotion/bas_slope_loco.mov" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+        <div class="content is-two-third has-text-centered">
+        </div>
+      </div>
+      <div class="column is-full-width is-centered has-text-centered">
+        <video controls autoplay loop muted playsinline src="./assets/slope_locomotion/abs_slope_loco.mov" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+        <div class="content is-two-third has-text-centered">
+        </div>
+      </div>
+      <div class="column is-full-width is-centered has-text-centered">
+        <video controls autoplay loop muted playsinline src="./assets/slope_locomotion/rmalag_slope_loco.mov" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
         <div class="content is-two-third has-text-centered">
         </div>
       </div>
@@ -373,6 +393,23 @@
       </div>
     </div>
     <div class="columns is-centered">
+      <div class="column is-full-width is-centered has-text-centered">
+        <h3 class="title is-4" style="text-align: center;">BAS</h3> 
+        <div class="content is-two-third has-text-centered">
+        </div>
+      </div>
+      <div class="column is-full-width is-centered has-text-centered">
+        <h3 class="title is-4" style="text-align: center;">ABS</h3>
+        <div class="content is-two-third has-text-centered">
+        </div>
+      </div>
+      <div class="column is-full-width is-centered has-text-centered">
+        <h3 class="title is-4" style="text-align: center;">RMA+Lagrangian</h3>
+        <div class="content is-two-third has-text-centered">
+        </div>
+      </div>
+    </div>
+    <!-- <div class="columns is-centered">
       <div class="column is-full-width is-centered has-text-centered">
         <video controls autoplay loop muted playsinline src="./resources/baseline_comparison/baseline-comparison-Outdoor-ABS.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
         <div class="content is-two-third has-text-centered">
@@ -397,7 +434,7 @@
         </p>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </section>
 

@@ -63,6 +63,7 @@
         <div class="column has-text-centered">
           <h1 class="title is-1 publication-title">Bridging Adaptivity and Safety: <br>Agile Legged Locomotion<br>Across
             Varied Physics</h1>
+          <div class="is-size-4 publication-authors">
             <span class="author-block">
               <a href="https://z-taylcr7.github.io/">Yichao Zhong</a>*&nbsp;&nbsp;
               <a href="https://zita-ch.github.io/">Chong Zhang</a>*&nbsp;&nbsp;
@@ -74,7 +75,7 @@
               <image src="./static/images/logo.png" style="width: 60%;"></image>
           </div>
           <div class="is-size-4 publication-authors", style="margin-bottom: 0.5cm;">
-            Under review
+           Under review
           </div>
           <!-- <div class="is-size-4 publication-authors" >
             ICRA 2024 Agile Robotics Workshop (Spotlight)
@@ -115,7 +116,7 @@
                 </a>
               </span> -->
               <!-- Video Link. -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://youtu.be/elWwPn5IhjA"
                    class="external-link button is-normal is-rounded is-dark" target="_blank">
                   <span class="icon">
@@ -123,7 +124,7 @@
                   </span>
                   <span>Video</span>
                 </a>
-              </span>
+              </span> -->
               <!-- Bilibili Link. -->
               <!-- <span class="link-block">
                 <a href="https://youtu.be/elWwPn5IhjA"
@@ -153,14 +154,7 @@
                 </a>
               </span> -->
               <!-- Code Link. -->
-              <!-- <span class="link-block">
-                <a href="https://github.com/LeCAR-Lab/ABS" class="external-link button is-normal is-rounded is-dark" target="_blank">
-                  <span class="icon">
-                      <svg class="svg-inline--fa fa-github fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg><!-- <i class="fab fa-github"></i> Font Awesome fontawesome.com -->
-                  </span>
-                  <span>Code</span>
-                </a>
-              </span> -->
+              
               <!-- <span class="link-block">
                 <a href="./cn.html" class="external-link button is-normal is-rounded is-dark" target="_blank">
                   <span class="icon">
@@ -206,7 +200,7 @@
         <h2 class="title is-2">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Legged robots navigating cluttered environments must be jointly agile for efficient task execution and safe to avoid collisions with obstacles or humans. Existing studies either develop conservative controllers (< 1.0 m/s) to ensure safety, or focus on agility without considering potentially fatal collisions. This paper introduces Agile But Safe (ABS), a learning-based control framework that enables agile and collision-free locomotion for quadrupedal robots. ABS involves an agile policy to execute agile motor skills amidst obstacles and a recovery policy to prevent failures, collaboratively achieving high-speed and collision-free navigation. The policy switch in ABS is governed by a learned control-theoretic reach-avoid value network, which also guides the recovery policy as an objective function, thereby safeguarding the robot in a closed loop. The training process involves the learning of the agile policy, the reach-avoid value network, the recovery policy, and an exteroception representation network, all in simulation. These trained modules can be directly deployed in the real world with onboard sensing and computation, leading to high-speed and collision-free navigation in confined indoor and outdoor spaces with both static and dynamic obstacles.
+            Real-world legged locomotion systems often need to reconcile agility and safety for different scenarios. Moreover, these systems face challenges as the real-world dynamics are varied and changing (e.g., payload, friction). In this paper, we introduce BAS (Bridging Adaptivity and Safety), which builds upon the pipeline of prior work ABS(Agile But Safe) and is designed to ensure adaptive safety even in demanding environments while maintaining agility. To this end, we make the whole system adaptive to varying physics by conditioning modules on physical parameters, and train a physics estimator concurrently with the controller. To mitigate the distribution shift of physical parameter estimation during deployment, we further introduce on-policy fine-tuning on the estimator to enhance the estimation accuracy. The simulation results show that BAS achieves 50\% better safety in demanding environments while maintaining a higher speed on average. In real-world experiments, BAS shows its capability to handle complex environments (e.g. slippery floor, carrying up to 8kg payload), while ABS and other baselines lack adaptivity, leading to collisions or compromised in agility.
           </p>
         </div>
       </div>
@@ -228,8 +222,7 @@
     </div>
   </div>
 </section>
-<!-- 
-<section class="section">
+<!-- <section class="section">
   <div class="container">
     <h2 class="title is-2" style="text-align: center;">Indoor Hall with Furnitures</h2>
     <div class="columns is-centered">
@@ -280,7 +273,8 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
+<!-- 
 <section class="section">
   <div class="container">
     <h2 class="title is-2" style="text-align: center;">Collision Avoidance with Diverse Objects</h2>
@@ -303,8 +297,8 @@
   </div>
 </section>
 
-
-
+ -->
+<!-- 
 <section class="section">
   <div class="container">
     <h2 class="title is-2" style="text-align: center;">Agility Test</h2>
